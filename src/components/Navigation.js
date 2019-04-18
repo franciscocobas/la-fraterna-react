@@ -1,5 +1,5 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap'
+import { Navbar, Nav } from 'react-bootstrap'
 
 import logoFlorFraterna from '../assets/flower.svg';
 import './Navigation.scss';
@@ -7,7 +7,7 @@ import './Navigation.scss';
 export default function Navigation(props) {
 
   return (
-    <Navbar id='navigation-container' bg="light" expand="lg" fixed='top' fluid>
+    <Navbar id='navigation-container' expand="lg" fixed='top'>
       <Navbar.Brand href="#home" className='flex-grow-1'>
         <img id='logo-flor-fraterna' 
           src={logoFlorFraterna} 

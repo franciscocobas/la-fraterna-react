@@ -1,11 +1,18 @@
 #navigation-container {
 
   font-family: "Moon Flower Bold";
+  background-color: transparent;
+
+  
+  .navbar-brand {
+    color: rgba(255,255,255,.7);
+  }
 
   a {
     font-size: 2em;
     font-weight: 600;
     text-decoration: none;
+    color: rgba(255,255,255,.7);
 
     #logo-flor-fraterna {
       height: 65px;
